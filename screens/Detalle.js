@@ -9,7 +9,7 @@ import {
   Button,
 } from 'react-native';
 import { LineChart } from 'react-native-chart-kit';
-
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const Detalle = ({ route }) => {
   const { jsonData } = route.params;
